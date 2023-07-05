@@ -1,0 +1,39 @@
+@font-face {
+    font-family: circular;
+    src: url(Assets/circular-std-medium-500.ttf);
+}
+
+
+html, body{
+    font-family: circular;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: linear-gradient(transparent, black), url(Assets/Foto_Fluxo.jpg);
+}
+
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    height: 74px;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+}
+
+
+.home{
+    display: flex;
+    align-items: end;
+    margin: 2.5%;
+    font-size: 20px;
+    color: white;
+}
+
+
+#spotfluxo-icon {
+    width: 30px;
+    margin-right: 5px;
+    
+}
